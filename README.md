@@ -27,11 +27,16 @@ Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atua
 O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo fornecedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
 
 ![image](https://user-images.githubusercontent.com/53821307/118822844-e0b8b400-b88e-11eb-803d-46b130d6bf49.png)
+
+* preço packing: 5,72 por pedido
+* preço picking: 0,28 por produto
+* preço por volume: 49,98 por m3 por mês
+* preço por peso: 0,91 por kg
  
 observações:
  * Desconsidere o custo do SKU
  * Considere que o produto ficará 1 dia no armazem da **Logistica Inteligente**
- * Packing é o preço por empacotar um pedidos
+ * Packing é o preço por empacotar um pedido
  * Picking é o preço por receber cada unidade de produto
 
 
@@ -59,7 +64,7 @@ A seguir seguem casos de teste para serem usados na validação da sua solução
 **Parâmetros**: 
 * Peso do produto: 250g
 * Dimensões do produto: 0,2 x 0,2 x 0,3m
-* Quantidade do pedido: 2un.
+* Quantidade de produtos: 2un.
 * CEP: 05612-050 
 
 **Saída esperada**:
@@ -69,7 +74,7 @@ A seguir seguem casos de teste para serem usados na validação da sua solução
 **Parâmetros**: 
 * Peso do produto: 1200g
 * Dimensões do produto: 0,4 x 0,2 x 0,5m
-* Quantidade do pedido: 3un.
+* Quantidade de produtos: 3un.
 * CEP: 04520-010 
 
 **Saída esperada**:
@@ -79,7 +84,7 @@ A seguir seguem casos de teste para serem usados na validação da sua solução
 **Parâmetros**: 
 * Peso do produto: 2000g
 * Dimensões do produto: 1 x 1 x 0,5m
-* Quantidade do pedido: 1un.
+* Quantidade de produtos: 1un.
 * CEP: 07115-000 
 
 **Saída esperada**:
@@ -91,7 +96,7 @@ Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insi
 **Parâmetros**: 
 * Peso do produto: 
 * Dimensões do produto: 
-* Quantidade do pedido: .
+* Quantidade de produtos: .
 * CEP:  
 
 **Saída esperada**:
@@ -101,7 +106,7 @@ Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insi
 **Parâmetros**: 
 * Peso do produto: 
 * Dimensões do produto: 
-* Quantidade do pedido: 
+* Quantidade de produtos: 
 * CEP: 
 
 **Saída esperada**:
@@ -111,7 +116,7 @@ Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insi
 **Parâmetros**: 
 * Peso do produto: 
 * Dimensões do produto: 
-* Quantidade do pedido: 
+* Quantidade de produtos: 
 * CEP: 
 
 **Saída esperada**:
