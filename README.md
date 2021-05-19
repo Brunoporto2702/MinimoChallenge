@@ -26,7 +26,7 @@ Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atua
 ### Custo de Logística:
 O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo fornecedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
 
-![image](https://user-images.githubusercontent.com/53821307/118822844-e0b8b400-b88e-11eb-803d-46b130d6bf49.png)
+![case](https://user-images.githubusercontent.com/53821307/118873395-17f38900-b8c0-11eb-8bd7-4b95cdf4455c.png)
  
 observações:
  * Desconsidere o custo do SKU
