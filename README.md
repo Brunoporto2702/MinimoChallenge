@@ -37,7 +37,7 @@ O custo de frete é o preço cobrado para levar o pedido até a casa do comprado
 Basicamente basta consultar a coluna "Geografia Comercial" para determinado intervalo de "CEP Inicial" e "CEP Final" que contém o CEP do comprador no arquivo "codigo-por-cep.csv". E então consultar qual o preço para o código encontrado no processo anterior e peso do total do pedido no arquivo "preco-por-codigo-e-peso.csv". 
 
 ## Regras
-Faça um fork deste repositório e desenvolva um software para automatizar o cálculo do preço que será cobrado por pedido utilizando sua tecnologia de preferência (python, javascript, c#, Excel, etc.).
+Desenvolva uma solução para automatizar o cálculo do preço que será cobrado por pedido utilizando sua tecnologia de preferência.
 
 O programa que você desenvolver deve ter como **entrada** os seguintes **parâmetros**: 
 
@@ -60,4 +60,65 @@ O seu software que você desenvolver dar a mesma resposta para os casos descrito
 
 **Saída esperada**:
 * R$XX,XX
+
+#### Caso 2:
+**Parâmetros**: 
+* Peso do produto: 250g
+* Dimensões do produto: 0,2 x 0,2 x 0,3m
+* Quantidade do pedido: 2un.
+* CEP: 05612-050 
+
+**Saída esperada**:
+* R$XX,XX
+
+#### Caso 3:
+**Parâmetros**: 
+* Peso do produto: 250g
+* Dimensões do produto: 0,2 x 0,2 x 0,3m
+* Quantidade do pedido: 2un.
+* CEP: 05612-050 
+
+**Saída esperada**:
+* R$XX,XX
+
+Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insira abaixo os valores que você usou para cada caso de teste que você desenvolveu:
+
+#### Caso 4 (desenvolvido pelo cadidato):
+**Parâmetros**: 
+* Peso do produto: 
+* Dimensões do produto: 
+* Quantidade do pedido: .
+* CEP:  
+
+**Saída esperada**:
+* R$XX,XX
+
+#### Caso 5 (desenvolvido pelo cadidato):
+**Parâmetros**: 
+* Peso do produto: 
+* Dimensões do produto: 
+* Quantidade do pedido: 
+* CEP: 
+
+**Saída esperada**:
+* R$XX,XX
+
+#### Caso 6 (desenvolvido pelo cadidato):
+**Parâmetros**: 
+* Peso do produto: 
+* Dimensões do produto: 
+* Quantidade do pedido: 
+* CEP: 
+
+**Saída esperada**:
+* R$XX,XX
+
+### Forma de entrega: 
+Subir a sua solução em um repósitório no GitHub e nos avisar por e-mail (bruno.porto@minimo.com.br).
+
+### Prazo para entrega **21hrs 31/05/2021**
+
+
+# Boa Sorte
  
+
