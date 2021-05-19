@@ -30,7 +30,7 @@ O custo de logística é o preço cobrado para receber, empacotar, armazenar e e
 
 * preço packing: 5,72 por pedido
 * preço picking: 0,28 por produto
-* preço por volume: 49,98 por m3 por mês
+* preço por volume: 49,98 por produto
 * preço por peso: 0,91 por kg
  
 observações:
