@@ -4,13 +4,13 @@ Desafio de Programação - Minimo 2021
 
 Olá!! 
 
-Se você está aqui, provavelmente está participando do processo seletivo da Minimo! Seja muito bem-vindo, e esperamos que goste do desafio que vamos propôr. Pensamos esta etapa como meio de tornar esta experiência mais construtiva para você e também para nos ajudar a avaliar o seu alinhamento com os valores da empresa.
+Se você está aqui, provavelmente está participando do processo seletivo da Minimo! Seja muito bem-vindo, e esperamos que goste do desafio que vamos propor. Pensamos nesta etapa como meio de tornar esta experiência mais construtiva para você e também para nos ajudar a avaliar o seu alinhamento com os valores da empresa.
 
-Como dissemos na descrição da vaga no site da Preparo, nós não esperamos nenhum conhecimento técnico prévio de nenhum dos candidatos. Mas uma coisa que valorizamos muito por aqui, é a **capacidade de aprender** e a **autonomia** de cada um. No dia a dia da empresa você irá se deparar com inúmeras situações em terá que:
+Como dissemos na descrição da vaga no site da Preparo, nós não esperamos nenhum conhecimento técnico prévio de nenhum dos candidatos. Mas uma coisa que valorizamos muito por aqui, é a **capacidade de aprender** e a **autonomia** de cada um. No dia a dia da empresa você irá se deparar com inúmeras situações onde terá que:
 
 * entender uma necessidade do cliente
 * converter esta necessidade em requisitos técnicos
-* pesquisar a melhor maneira cumprir com os requisitos
+* pesquisar a melhor maneira de cumprir os requisitos
 * Implementar uma solução aplicando o que pesquisou
 * Apresentar ao cliente o resultado obtido e coletar feedbacks
 * Realizar os ajustes necessários e colocar em produção
@@ -21,7 +21,7 @@ Pensando nisso, desenvolvemos este desafio, que consta de uma simulação de uma
 
 # O Desafio
 ## Descrição do case
-Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atuação é o **e-commerce**, chamado **Vendas Mil**. Este cliente possui diversos parceiros de logística para entregar os seus produtos na casa de seus clientes, e cada parceiro possui uma maneira diferente de calcular o preço cobrado pelo envio dos pedidos. Um deles é o **Logistica Inteligente** e ele cobra do **Vendas Mil** por meio de duas frentes diferentes: Logística e Frete. A soma das duas frentes compõe o preço final que será cobrado por pedido. O preço é formado a partir da seguinte regra: 
+Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atuação é o **e-commerce**, chamado **Vendas Mil**. Este cliente possui diversos parceiros de logística para entregar os seus produtos na casa de seus clientes, e cada parceiro possui uma maneira diferente de calcular o preço cobrado pelo envio dos pedidos. Um deles é o **Logística Inteligente** e ele cobra do **Vendas Mil** por meio de duas frentes diferentes: Logística e Frete. A soma das duas frentes compõe o preço final que será cobrado por pedido. O preço é formado a partir da seguinte regra: 
 
 ### Custo de Logística:
 O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo fornecedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
@@ -36,7 +36,6 @@ Para realizar a simulação acima, considerou-se o seguinte preço para cada um 
  
 observações:
  * Desconsidere o custo do SKU
- * Considere que o produto ficará 1 dia no armazem da **Logistica Inteligente**
  * Packing é o preço por empacotar um pedido
  * Picking é o preço por receber cada unidade de produto
 
@@ -59,7 +58,7 @@ O programa que você desenvolver deve ter como **entrada** os seguintes **parâm
 E deve ter como **saída** o preço que será cobrado por pedido. 
 
 ### Casos de teste
-A seguir seguem casos de teste para serem usados na validação da sua solução.
+A seguir constam casos de teste para serem usados na validação da sua solução. Insira nos casos 2 e 3 os valores obtidos com a sua solução. 
 
 #### Caso 1:
 **Parâmetros**: 
@@ -79,7 +78,7 @@ A seguir seguem casos de teste para serem usados na validação da sua solução
 * CEP: 04520-010 
 
 **Saída esperada**:
-* R$20,02592
+* R$ (Insira o valor obtido por sua solução)
 
 #### Caso 3:
 **Parâmetros**: 
@@ -89,7 +88,7 @@ A seguir seguem casos de teste para serem usados na validação da sua solução
 * CEP: 07115-000 
 
 **Saída esperada**:
-* R$17,793
+* R$ (Insira o valor obtido por sua solução)
 
 Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insira abaixo os valores que você usou para cada caso de teste que você desenvolveu:
 
@@ -125,6 +124,9 @@ Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insi
 
 ### Forma de entrega: 
 Subir a sua solução em um repósitório no GitHub e nos avisar por e-mail (bruno.porto@minimo.com.br).
+
+### Em caso de dúvidas:
+Ficamos a disposição no mesmo contato do e-mail acima. 
 
 ### Prazo para entrega **21hrs 31/05/2021**
 
