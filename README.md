@@ -24,12 +24,16 @@ Pensando nisso, desenvolvemos este desafio, que consta de uma simulação de uma
 Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atuação é o **e-commerce**, chamado **Vendas Mil**. Este cliente possui diversos parceiros de logística para entregar os seus produtos na casa de seus clientes, e cada parceiro possui uma maneira diferente de calcular o preço cobrado pelo envio dos pedidos. Um deles é o **Logistica Inteligente** e ele cobra do **Vendas Mil** por meio de duas frentes diferentes: Logística e Frete. A soma das duas frentes compõe o preço final que será cobrado por pedido. O preço é formado a partir da seguinte regra: 
 
 ### Custo de Logística:
-O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo forncedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
+O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo fornecedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
 
 ![image](https://user-images.githubusercontent.com/53821307/118822844-e0b8b400-b88e-11eb-803d-46b130d6bf49.png)
  
 observações:
- * Considere que o ...
+ * Desconsidere o custo do SKU
+ * Considere que o produto ficará 1 dia no armazem da **Logistica Inteligente**
+ * Packing é o preço por empacotar um pedidos
+ * Picking é o preço por receber cada unidade de produto
+
 
 ### Custo de Frete:
 O custo de frete é o preço cobrado para levar o pedido até a casa do comprador. Ele é calculado com base no CEP do comprador e do peso total do pacote a ser enviado. Para calcular o preço do frete, é necessário consultar as tabelas em csv disponibilizadas neste repositório dentro da pasta "CSVs". 
@@ -59,27 +63,27 @@ A seguir seguem casos de teste para serem usados na validação da sua solução
 * CEP: 05612-050 
 
 **Saída esperada**:
-* R$XX,XX
+* R$13,044984
 
 #### Caso 2:
 **Parâmetros**: 
-* Peso do produto: 250g
-* Dimensões do produto: 0,2 x 0,2 x 0,3m
-* Quantidade do pedido: 2un.
-* CEP: 05612-050 
+* Peso do produto: 1200g
+* Dimensões do produto: 0,4 x 0,2 x 0,5m
+* Quantidade do pedido: 3un.
+* CEP: 04520-010 
 
 **Saída esperada**:
-* R$XX,XX
+* R$20,02592
 
 #### Caso 3:
 **Parâmetros**: 
-* Peso do produto: 250g
-* Dimensões do produto: 0,2 x 0,2 x 0,3m
-* Quantidade do pedido: 2un.
-* CEP: 05612-050 
+* Peso do produto: 2000g
+* Dimensões do produto: 1 x 1 x 0,5m
+* Quantidade do pedido: 1un.
+* CEP: 07115-000 
 
 **Saída esperada**:
-* R$XX,XX
+* R$17,793
 
 Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insira abaixo os valores que você usou para cada caso de teste que você desenvolveu:
 
