@@ -68,7 +68,7 @@ A seguir constam casos de teste para serem usados na validação da sua soluçã
 * CEP: 05612-050 
 
 **Saída esperada**:
-* R$13,044984
+* R$ (Insira o valor obtido por sua solução)
 
 #### Caso 2:
 **Parâmetros**: 
