@@ -128,7 +128,7 @@ Subir a sua solução em um repósitório no GitHub e nos avisar por e-mail (bru
 ### Em caso de dúvidas:
 Ficamos a disposição no mesmo contato do e-mail acima. 
 
-### Prazo para entrega **21hrs 31/05/2021**
+### Prazo para entrega **21hrs 27/05/2021**
 
 
 # Boa Sorte
